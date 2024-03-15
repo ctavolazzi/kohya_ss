@@ -1,0 +1,230 @@
+repo_name: ctavolazzi/kohya_ss
+report_id: 4a4d4724f74559d0a142bcdfcbf63387
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-15T02:00:36+00:00'
+requested_by: bmaltais
+provider: github
+branch: master
+detected_tools_count: 17
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/ctavolazzi/kohya_ss
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/ctavolazzi/kohya_ss
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ctavolazzi/kohya_ss
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/ctavolazzi/kohya_ss/blob/master/.github/workflows/typos.yaml
+  detection_source: ".github/workflows/typos.yaml"
+  last_updated_by: bmaltais
+  last_updated_on: 2023-03-02 00:14:48.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/ctavolazzi/kohya_ss/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: bmaltais
+  last_updated_on: 2022-12-13 18:49:14.000000000 Z
+- name: OpenCV
+  description: Open Source Computer Vision Library
+  website_url: http://opencv.org/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: Image Processing and Management
+  image_url: https://img.stackshare.io/service/1293/opencv-logo-64x64.png
+  detection_source_url: https://github.com/ctavolazzi/kohya_ss/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: bmaltais
+  last_updated_on: 2022-12-13 18:49:14.000000000 Z
+- name: PowerShell
+  description: A task automation and configuration management framework
+  website_url: https://docs.microsoft.com/en-us/powershell/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3681/powershell-logo.png
+  detection_source_url: https://github.com/ctavolazzi/kohya_ss
+  detection_source: Repo Metadata
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/ctavolazzi/kohya_ss
+  detection_source: Repo Metadata
+- name: TensorFlow
+  description: Open Source Software Library for Machine Intelligence
+  website_url: https://www.tensorflow.org
+  version: 2.10.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Machine Learning Tools
+  image_url: https://img.stackshare.io/service/4717/FtFnqC38_400x400.png
+  detection_source_url: https://github.com/ctavolazzi/kohya_ss/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: bmaltais
+  last_updated_on: 2023-04-01 20:22:30.000000000 Z
+- name: altair
+  description: 'Altair: A declarative statistical visualization library for Python'
+  package_url: https://pypi.org/project/altair
+  version: 4.2.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ctavolazzi/kohya_ss/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: bmaltais
+  last_updated_on: 2023-03-03 01:39:07.000000000 Z
+- name: ftfy
+  description: Fixes some problems with Unicode text after the fact
+  package_url: https://pypi.org/project/ftfy
+  version: 6.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20650/default_422cfa802834b2f78f74508cdc2c26b9544a79eb.png
+  detection_source_url: https://github.com/ctavolazzi/kohya_ss/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: bmaltais
+  last_updated_on: 2023-03-03 01:39:07.000000000 Z
+- name: huggingface-hub
+  description: Client library to download and publish models
+  package_url: https://pypi.org/project/huggingface-hub
+  version: 0.13.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ctavolazzi/kohya_ss/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: bmaltais
+  last_updated_on: 2023-04-07 12:31:06.000000000 Z
+- name: opencv-python
+  description: Wrapper package for OpenCV python bindings
+  package_url: https://pypi.org/project/opencv-python
+  version: 4.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ctavolazzi/kohya_ss/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: bmaltais
+  last_updated_on: 2023-03-03 01:39:07.000000000 Z
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/project/requests
+  version: 2.28.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/ctavolazzi/kohya_ss/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: bmaltais
+  last_updated_on: 2023-02-10 00:17:24.000000000 Z
+  vulnerabilities:
+  - name: Unintended leak of Proxy-Authorization header in requests
+    cve_id: CVE-2023-32681
+    cve_url: https://github.com/advisories/GHSA-j8r2-6x86-q33q
+    detected_date: May 23
+    severity: moderate
+    first_patched: 2.31.0
+- name: tensorboard
+  description: TensorBoard lets you watch Tensors Flow
+  package_url: https://pypi.org/project/tensorboard
+  version: 2.10.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ctavolazzi/kohya_ss/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: bmaltais
+  last_updated_on: 2023-04-01 20:22:30.000000000 Z
+- name: toml
+  description: Python Library for Tom's Obvious, Minimal Language
+  package_url: https://pypi.org/project/toml
+  version: 0.10.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19912/default_bc82f0b22ca8fd942e21c317967f4ab61f43eb2c.png
+  detection_source_url: https://github.com/ctavolazzi/kohya_ss/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: bmaltais
+  last_updated_on: 2023-03-07 00:15:02.000000000 Z
+- name: voluptuous
+  description: "# Voluptuous is a Python data validation library"
+  package_url: https://pypi.org/project/voluptuous
+  version: 0.13.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20149/default_29fd040eb57820a7b7a415b9eba1bba73c05d9c8.png
+  detection_source_url: https://github.com/ctavolazzi/kohya_ss/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: bmaltais
+  last_updated_on: 2023-03-07 00:15:02.000000000 Z
